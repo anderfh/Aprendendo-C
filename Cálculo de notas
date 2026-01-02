@@ -2,22 +2,22 @@
 
 int main(){
     int nota1, nota2, nota3;
-    int media
+    int media;
 
     printf("***** Programa de cálculo de notas*****\n");//Início do programa;
     
-    printf("Digite a sua 1ª nota:\n");//Entrada da primeira nota
+    printf("Digite a sua 1ª nota:\n");//Entrada da primeira nota;
     scanf("%d", &nota1);
 
-    printf("Digite a sua 2ª nota:\n");//Entrada da segunda nota
+    printf("Digite a sua 2ª nota:\n");//Entrada da segunda nota;
     scanf("%d", &nota2);
 
-    printf("Digite a sua 3ª nota:\n");//Entrada da terceira nota
+    printf("Digite a sua 3ª nota:\n");//Entrada da terceira nota;
     scanf("%d", &nota3);
 
-    media = (nota1 + nota2 + nota3) / 3;//Cálculo da média
+    media = (nota1 + nota2 + nota3) / 3;//Cálculo da média;
 
-    printf("A sua média corresponde a: %d\n", media);//Exibe resultado
+    printf("A sua média corresponde a: %d\n", media);//Exibe resultado;
 
-    return 0
+    return 0;
 }
